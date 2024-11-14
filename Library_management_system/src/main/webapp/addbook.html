@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add New Book</title>
+</head>
+<body>
+    <h2>Add a New Book</h2>
+    <form action="AddBookServlet" method="post">
+        <label for="title">Title:</label>
+        <input type="text" name="title" id="title" required><br><br>
+        
+        <label for="author">Author:</label>
+        <input type="text" name="author" id="author" required><br><br>
+        
+        <label for="publisher">Publisher:</label>
+        <input type="text" name="publisher" id="publisher"><br><br>
+        
+        <label for="year">Year:</label>
+        <input type="number" name="year" id="year" required><br><br>
+        
+        <label for="total_quantity">Total Quantity:</label>
+        <input type="number" name="total_quantity" id="total_quantity" required><br><br>
+        
+        <button type="submit">Add Book</button>
+    </form>
+</body>
+</html>
